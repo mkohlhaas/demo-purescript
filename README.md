@@ -1,3 +1,27 @@
+Installation Notes
+==
+
+- Check versions
+  ```shell
+  $ purs --version
+  $ purerl --version
+  ```
+- [Check Version Table](https://github.com/purerl/purerl?tab=readme-ov-file#versions)
+  ```shell
+  # Install specific PureScript version:
+  $ sudo npm install -g purescript@0.15.14
+  ```
+- [Purerl Installation](https://github.com/purerl/purerl/releases)
+  - Extract package (e.g. `linux64.tar.gz`) and just copy `purerl` in a local path (e.g. `~/.local/bin/purerl`)
+- [Package Set for Purerl](https://github.com/purerl/package-sets/releases)
+  - put in `server/packages.dhall`
+
+- Check installation:
+  ```shell
+  cd server
+  spago build # there shouldn't be any errors (esp. no compiler version errors)
+  ```
+
 A collection of Purerl examples
 ==
 
